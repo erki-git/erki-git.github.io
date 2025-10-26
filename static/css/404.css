@@ -23,5 +23,6 @@ div {
 }
 
 img {
-    width: 50%;
+    width: 40%;
+    user-select: none;
 }
