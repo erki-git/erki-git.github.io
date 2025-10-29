@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-attachment: fixed;
+    background-image: url("/static/images/camo.png");
+    background-color: #121212;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+}
+
+header {
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+#enades_logo {
+    width: 14%;
+    padding-right: 19.5%;
+    position: fixed;
+}
+
+nav {
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+
+main {
+    margin-top: 7.2%;
+    width: 65%;
+    height: 85vh;
+    position: fixed;
+    left: 21.25%;
+    user-select: none;
+}
+
+#layout {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.subject {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 5%;
+    color: white;
+}
+
+#description {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.infoblock {
+    margin-bottom: 10%;
+}
+
+.nades {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    border-radius: 12px;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: background-color .2s;
+    margin-bottom: 3%;
+}
+
+.nades:hover {
+    background-color: rgb(163, 52, 72);
+}
+
+.nade_icons {
+    height: 55%;
+}
+
+.nade_name {
+    margin-left: 5%;
+    width: 100vh;
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.number_of_nades {
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+}
+
+.selected {
+    background-color: rgb(138, 10, 41) !important;
+}
+
+.teams{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    border-radius: 12px;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: background-color .2s;
+    width: 22.3%;
+    margin: 0.5%;
+    float: left;
+}
+
+
+.teams:hover {
+    background-color: rgb(163, 52, 72);
+}
+
+.team_icons {
+    height: 55%;
+}
+
+.team_choice {
+    margin-right: 10%;
+    margin-left: 10%;
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#team_list{
+    background-color: rgba(40, 40, 40, 1);
+    border-radius: 12px;
+    height: 5.4vh;
+}
+
+#background_test{
+    position: fixed;
+}
+
+
+.maps {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    border-radius: 12px;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: background-color .2s;
+    margin-bottom: 3%;
+}
+
+.maps:hover {
+    background-color: rgb(163, 52, 72);
+}
+
+.map_name {
+    margin-left: 5%;
+    width: 100vh;
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.map_icons {
+    height: 55%;
+}
+
+.margin_for_back_button{
+    margin-top: 12%;
+}
+
+
+#back_icon {
+    width: 10%;
+    border-radius: 20px;
+    transition: background-color .2s;
+}
+
+#back_icon:hover {
+    background-color: rgb(163, 52, 72);
+    border-radius: 20px;
+}
+
+
+
+#layout_list{
+    background-color: rgba(40, 40, 40, 1);
+    border-radius: 12px;
+    height: 5.4vh;
+    width: 100%;
+}
+
+
+.layouts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    border-radius: 12px;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: background-color .2s;
+    width: 39%;
+    margin: 0.5%;
+    float: left;
+}
+
+.layouts:hover {
+    background-color: rgb(163, 52, 72);
+}
+
+.layout_choice {
+    margin-right: 10%;
+    margin-left: 10%;
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
