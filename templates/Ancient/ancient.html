@@ -76,8 +76,8 @@
                         Smokes
                     </span>
 
-                    <span class="number_of_nades">
-                        1337
+                    <span id="smokes_sum" class="number_of_nades">
+                        0
                     </span>
 
                 </a>
@@ -90,8 +90,8 @@
                         Molotovs
                     </span>
 
-                    <span class="number_of_nades">
-                        1337
+                    <span id="molotovs_sum" class="number_of_nades">
+                        0
                     </span>
 
                 </a>
@@ -100,7 +100,7 @@
 
                     <img class="nade_icons" draggable="false" src="/static/images/grenade_icons/flash_test.png" alt="flash">
 
-                    <span class="nade_name">
+                    <span id="flash_sum" class="nade_name">
                         Flashbangs
                     </span>
 
@@ -118,7 +118,7 @@
                         HE Grenade
                     </span>
 
-                    <span class="number_of_nades">
+                    <span id="HE_sum" class="number_of_nades">
                         1337
                     </span>
 
@@ -310,20 +310,15 @@
 
 
 
-
-
-
-
-
         <!-- Terrorist smokes -->
-        <button class="terrorist_smoke" id="t_smoke_1" type="button" onclick="alert('Hello World!')">
+        <button style="left: 67.3%; top: 43%;" class="terrorist_smoke" id="t_smoke_1" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="smoke_1">
 
         </button>
 
 
-        <button class="terrorist_smoke" id="t_smoke_2" type="button" onclick="alert('Hello World!')">
+        <button style="left: 62.85%; top: 40%;" class="terrorist_smoke" id="t_smoke_2" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="t_smoke_1">
 
@@ -331,19 +326,56 @@
 
 
 
+
+
+
+
+
+
+
         <!-- Counter Terrorist smokes -->
-        <button class="counter_terrorist_smoke" id="ct_smoke_1" type="button" onclick="alert('Hello World!')">
+        <button style="left: 66.4%; top: 66%;" class="counter_terrorist_smoke" id="ct_smoke_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="ct_smoke_1">
+
+        </button>
+
+        
+        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_smoke" id="ct_smoke_2" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="ct_smoke_1">
 
         </button>
 
 
-        <button class="counter_terrorist_smoke" id="ct_smoke_2" type="button" onclick="alert('Hello World!')">
 
-            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="ct_smoke_1">
+
+
+
+        
+        <!-- Terrorist molotovs -->
+        <button style="left: 67.3%; top: 43%;" class="terrorist_molotov gone" id="t_molotov_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="molotov_1">
 
         </button>
+
+
+
+
+
+
+
+        <!-- Counter Terrorist Molotovs -->
+        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_molotov gone" id="ct_molotov_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="molotov_1">
+
+        </button>
+
+
+
+
 
 
 

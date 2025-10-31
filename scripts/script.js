@@ -6,8 +6,19 @@ let t_button = document.getElementById("t_button");
 let ct_button = document.getElementById("ct_button")
 let any_button = document.getElementById("any_button")
 
-let ct_nades = document.querySelectorAll(".counter_terrorist_smoke")
-let t_nades = document.querySelectorAll(".terrorist_smoke")
+// Smokes
+let ct_nades_smoke = document.querySelectorAll(".counter_terrorist_smoke")
+let t_nades_smoke = document.querySelectorAll(".terrorist_smoke")
+
+// Molotovs
+let ct_nades_molotov = document.querySelectorAll(".counter_terrorist_molotov")
+let t_nades_molotov = document.querySelectorAll(".terrorist_molotov")
+
+
+
+let smokes_number = document.getElementById("smokes_sum")
+let molotov_number = document.getElementById("molotovs_sum")
+
 
 
 
@@ -16,22 +27,48 @@ if (selectedTeam == "t"){
     t_button.classList.add("selected")
     any_button.classList.remove("selected")
 
-    ct_nades.forEach((element) => {
-        console.log(element)
+    smokes_number.innerHTML = t_nades_smoke.length;
+    molotov_number.innerHTML = t_nades_molotov.length;
+
+
+    // Loops
+    ct_nades_smoke.forEach((element) => {
         element.style.display = "none"
     });
 
-    console.log(ct_nades)
+    ct_nades_molotov.forEach((element) => {
+        element.style.display = "none"
+    });
+
+
+
 
 } else if (selectedTeam == "ct"){
 
     ct_button.classList.add("selected")
     any_button.classList.remove("selected")
 
-    t_nades.forEach((element) => {
+
+    smokes_number.innerHTML = ct_nades_smoke.length;
+    molotov_number.innerHTML = ct_nades_molotov.length;
+
+    // Loops
+    t_nades_smoke.forEach((element) => {
         console.log(element)
         element.style.display = "none"
     });
+
+    t_nades_molotov.forEach((element) => {
+        console.log(element)
+        element.style.display = "none"
+    });
+
+    
+
+} else {
+
+    smokes_number.innerHTML = t_nades_smoke.length + ct_nades_smoke.length;
+    molotov_number.innerHTML = t_nades_molotov.length + ct_nades_molotov.length;
 
 }
 
