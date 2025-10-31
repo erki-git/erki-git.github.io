@@ -76,8 +76,8 @@
                         Smokes
                     </span>
 
-                    <span class="number_of_nades">
-                        1337
+                    <span id="smokes_sum" class="number_of_nades">
+                        0
                     </span>
 
                 </a>
@@ -90,8 +90,8 @@
                         Molotovs
                     </span>
 
-                    <span class="number_of_nades">
-                        1337
+                    <span id="molotovs_sum" class="number_of_nades">
+                        0
                     </span>
 
                 </a>
@@ -104,8 +104,8 @@
                         Flashbangs
                     </span>
 
-                    <span class="number_of_nades">
-                        1337
+                    <span id="flash_sum" class="number_of_nades">
+                        0
                     </span>
 
                 </a>
@@ -118,8 +118,8 @@
                         HE Grenade
                     </span>
 
-                    <span class="number_of_nades">
-                        1337
+                    <span id="HE_sum" class="number_of_nades">
+                        0
                     </span>
 
                 </a>
@@ -140,7 +140,7 @@
 
             <div id="team_list">
 
-                <a id="any_button" class="teams selected" href="ancient.html">
+                <a id="any_button" class="teams selected" href="flashes.html">
 
                     <img class="team_icons" draggable="false" src="/static/images/team_icons/Any_Icon2.png" alt="Any">
 
@@ -152,7 +152,7 @@
 
 
 
-                <a id="t_button" class="teams" href="ancient.html?team=t">
+                <a id="t_button" class="teams" href="flashes.html?team=t">
 
                     <img class="team_icons" draggable="false" src="/static/images/team_icons/T_Icon2.png" alt="T">
 
@@ -163,7 +163,7 @@
                 </a>
 
 
-                <a id="ct_button" class="teams" href="ancient.html?team=ct">
+                <a id="ct_button" class="teams" href="flashes.html?team=ct">
 
                     <img class="team_icons" draggable="false" src="/static/images/team_icons/CT_Icon2.png" alt="CT">
 
@@ -302,7 +302,106 @@
 
 
     <main>
+
+
+        <img id="small_T_icon" src="/static/images/team_icons/T_Icon2.png" alt="small_T_icon">
+
+        <img id="small_CT_icon" src="/static/images/team_icons/CT_Icon2.png" alt="small_CT_icon">
+
+
+
+
+        <!-- Terrorist smokes -->
+        <button style="left: 67.3%; top: 43%;" class="terrorist_smoke gone" id="t_smoke_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="smoke_1">
+
+        </button>
+
+
+        <button style="left: 62.85%; top: 40%;" class="terrorist_smoke gone" id="t_smoke_2" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="t_smoke_1">
+
+        </button>
+
+
+
+        <!-- Counter Terrorist smokes -->
+        <button style="left: 66.4%; top: 66%;" class="counter_terrorist_smoke gone" id="ct_smoke_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="ct_smoke_1">
+
+        </button>
+
+        
+        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_smoke gone" id="ct_smoke_2" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="ct_smoke_1">
+
+        </button>
+
+
+
+        
+        <!-- Terrorist molotovs -->
+        <button style="left: 67.3%; top: 43%;" class="terrorist_molotov gone" id="t_molotov_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="molotov_1">
+
+        </button>
+
+
+        <!-- Counter Terrorist Molotovs -->
+        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_molotov gone" id="ct_molotov_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="molotov_1">
+
+        </button>
+
+
+
+
+        <!-- Terrorist flashes -->
+        <button style="left: 67.3%; top: 43%;" class="terrorist_flash" id="t_flash_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="flash_1">
+
+        </button>
+
+
+        <!-- Counter Terrorist flashes -->
+        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_flash" id="ct_flash_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="flash_1">
+
+        </button>
+
+
+
+
+        <!-- Terrorist HE -->
+        <button style="left: 67.3%; top: 43%;" class="terrorist_he gone" id="t_he_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="he_1">
+
+        </button>
+
+
+        <!-- Counter Terrorist HE -->
+        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_he gone" id="ct_he_1" type="button" onclick="alert('Hello World!')">
+
+            <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="he_1">
+
+        </button>
+
+
+
+
         <img id="layout" draggable="false" src="/static/images/map_layouts/Ancient_layout.png" alt="Ancient_layout">
+
+
+
     </main>
 
 
