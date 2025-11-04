@@ -215,12 +215,6 @@ button:hover {
     height: 4vh;
 }
 
-
-
-
-
-
-
 #small_T_icon {
     position: fixed;
     height: 3vh;
@@ -234,6 +228,25 @@ button:hover {
     top: 19.8%;
     left: 53.85%;
 }
+
+
+#A_icon {
+    position: fixed;
+    height: 3vh;
+    top: 33.8%;
+    left: 44.65%;
+}
+
+#B_icon {
+    position: fixed;
+    height: 3vh;
+    top: 48%;
+    left: 65.7%;
+}
+
+
+
+
 
 
 .gone {

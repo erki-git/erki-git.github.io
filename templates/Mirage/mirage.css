@@ -194,3 +194,58 @@ main {
     background-color: rgb(163, 52, 72);
     border-radius: 20px;
 }
+
+button {
+    position: fixed;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline-offset: -2.5px;
+    transition: transform .15s;
+    height: 4vh;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+.small_nade_icon{
+    opacity: 80%;
+    height: 4vh;
+}
+
+#small_T_icon {
+    position: fixed;
+    height: 3vh;
+    top: 40%;
+    left: 73.5%;
+}
+
+#small_CT_icon {
+    position: fixed;
+    height: 3vh;
+    top: 79.7%;
+    left: 41%;
+}
+
+
+#A_icon {
+    position: fixed;
+    height: 3vh;
+    top: 86.9%;
+    left: 54.85%;
+}
+
+#B_icon {
+    position: fixed;
+    height: 3vh;
+    top: 31%;
+    left: 37%;
+}
+
+
+
+.gone {
+    display: none;
+}

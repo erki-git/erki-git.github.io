@@ -8,9 +8,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ENades - Ancient</title>
+    <title>ENades - Mirage</title>
 
-    <link rel="stylesheet" href="/templates/Ancient/ancient.css">
+    <link rel="stylesheet" href="/templates/Mirage/mirage.css">
 
     <link rel="icon" type="image/x-icon" href="/static/images/favicon2.ico">
 
@@ -68,7 +68,7 @@
 
             <div id="nades_list">
 
-                <a class="nades" href="ancient.html">
+                <a class="nades" href="mirage.html">
 
                     <img class="nade_icons" draggable="false" src="/static/images/grenade_icons/smoke_test.png" alt="smoke">
 
@@ -82,7 +82,7 @@
 
                 </a>
 
-                <a class="nades selected" href="molotovs.html">
+                <a class="nades" href="molotovs.html">
 
                     <img class="nade_icons" draggable="false" src="/static/images/grenade_icons/molotov_test.png" alt="molotov">
 
@@ -96,7 +96,7 @@
 
                 </a>
 
-                <a class="nades" href="flashes.html">
+                <a class="nades selected" href="flashes.html">
 
                     <img class="nade_icons" draggable="false" src="/static/images/grenade_icons/flash_test.png" alt="flash">
 
@@ -140,7 +140,7 @@
 
             <div id="team_list">
 
-                <a id="any_button" class="teams selected" href="molotovs.html">
+                <a id="any_button" class="teams selected" href="flashes.html">
 
                     <img class="team_icons" draggable="false" src="/static/images/team_icons/Any_Icon2.png" alt="Any">
 
@@ -152,7 +152,7 @@
 
 
 
-                <a id="t_button" class="teams" href="molotovs.html?team=t">
+                <a id="t_button" class="teams" href="flashes.html?team=t">
 
                     <img class="team_icons" draggable="false" src="/static/images/team_icons/T_Icon2.png" alt="T">
 
@@ -163,7 +163,7 @@
                 </a>
 
 
-                <a id="ct_button" class="teams" href="molotovs.html?team=ct">
+                <a id="ct_button" class="teams" href="flashes.html?team=ct">
 
                     <img class="team_icons" draggable="false" src="/static/images/team_icons/CT_Icon2.png" alt="CT">
 
@@ -189,7 +189,7 @@
 
             <div id="maps_list">
 
-                <a class="maps selected" href="ancient.html">
+                <a class="maps" href="ancient.html">
 
                     <img class="map_icons" draggable="false" src="/static/images/map_icons/Ancient_white.png" alt="Ancient">
 
@@ -200,7 +200,7 @@
                 </a>
 
 
-                <a class="maps" href="/templates/Mirage/mirage.html">
+                <a class="maps selected" href="/templates/Mirage/mirage.html">
 
                     <img class="map_icons" draggable="false" src="/static/images/map_icons/Mirage_white.png" alt="Mirage">
 
@@ -353,7 +353,7 @@
 
         
         <!-- Terrorist molotovs -->
-        <button style="left: 67.3%; top: 43%;" class="terrorist_molotov" id="t_molotov_1" type="button" onclick="alert('Hello World!')">
+        <button style="left: 67.3%; top: 43%;" class="terrorist_molotov gone" id="t_molotov_1" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="molotov_1">
 
@@ -361,7 +361,7 @@
 
 
         <!-- Counter Terrorist Molotovs -->
-        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_molotov" id="ct_molotov_1" type="button" onclick="alert('Hello World!')">
+        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_molotov gone" id="ct_molotov_1" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="molotov_1">
 
@@ -371,7 +371,7 @@
 
 
         <!-- Terrorist flashes -->
-        <button style="left: 67.3%; top: 43%;" class="terrorist_flash gone" id="t_flash_1" type="button" onclick="alert('Hello World!')">
+        <button style="left: 67.3%; top: 43%;" class="terrorist_flash" id="t_flash_1" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="flash_1">
 
@@ -379,7 +379,7 @@
 
 
         <!-- Counter Terrorist flashes -->
-        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_flash gone" id="ct_flash_1" type="button" onclick="alert('Hello World!')">
+        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_flash" id="ct_flash_1" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="flash_1">
 
@@ -406,12 +406,8 @@
 
 
 
+        <img id="layout" draggable="false" src="/static/images/map_layouts/Mirage_layout.png" alt="Mirage_layout">
 
-
-
-
-
-        <img id="layout" draggable="false" src="/static/images/map_layouts/Ancient_layout.png" alt="Ancient_layout">
 
     </main>
 
