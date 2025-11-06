@@ -33,7 +33,6 @@ let he_number = document.getElementById("HE_sum")
 
 
 
-
 if (selectedTeam == "t"){
 
     t_button.classList.add("selected")

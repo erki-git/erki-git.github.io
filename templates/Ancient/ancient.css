@@ -245,7 +245,9 @@ button:hover {
 }
 
 
-
+.terrorist_position {
+    display: none;
+}
 
 
 

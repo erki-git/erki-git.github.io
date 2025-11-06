@@ -8,9 +8,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ENades - Dust 2</title>
+    <title>ENades - Ancient</title>
 
-    <link rel="stylesheet" href="/templates/Dust2/dust2.css">
+    <link rel="stylesheet" href="/templates/Mirage/mirage.css">
 
     <link rel="icon" type="image/x-icon" href="/static/images/favicon2.ico">
 
@@ -48,7 +48,7 @@
         <div class="infoblock">
 
             <h1 class="subject">
-                Dust 2
+                Ancient
             </h1>
 
             <p id="description">
@@ -68,7 +68,7 @@
 
             <div id="nades_list">
 
-                <a class="nades selected" href="dust2.html">
+                <a class="nades" href="ancient.html">
 
                     <img class="nade_icons" draggable="false" src="/static/images/grenade_icons/smoke_test.png" alt="smoke">
 
@@ -110,7 +110,7 @@
 
                 </a>
 
-                <a class="nades" href="HE.html">
+                <a class="nades selected" href="HE.html">
 
                     <img class="nade_icons" draggable="false" src="/static/images/grenade_icons/HE_test.png" alt="HE">
 
@@ -140,7 +140,7 @@
 
             <div id="team_list">
 
-                <a id="any_button" class="teams selected" href="dust2.html">
+                <a id="any_button" class="teams selected" href="HE.html">
 
                     <img class="team_icons" draggable="false" src="/static/images/team_icons/Any_Icon2.png" alt="Any">
 
@@ -152,7 +152,7 @@
 
 
 
-                <a id="t_button" class="teams" href="dust2.html?team=t">
+                <a id="t_button" class="teams" href="HE.html?team=t">
 
                     <img class="team_icons" draggable="false" src="/static/images/team_icons/T_Icon2.png" alt="T">
 
@@ -163,7 +163,7 @@
                 </a>
 
 
-                <a id="ct_button" class="teams" href="dust2.html?team=ct">
+                <a id="ct_button" class="teams" href="HE.html?team=ct">
 
                     <img class="team_icons" draggable="false" src="/static/images/team_icons/CT_Icon2.png" alt="CT">
 
@@ -189,7 +189,7 @@
 
             <div id="maps_list">
 
-                <a class="maps" href="/templates/Ancient/ancient.html">
+                <a class="maps" href="ancient.html">
 
                     <img class="map_icons" draggable="false" src="/static/images/map_icons/Ancient_white.png" alt="Ancient">
 
@@ -200,7 +200,7 @@
                 </a>
 
 
-                <a class="maps" href="/templates/Mirage/mirage.html">
+                <a class="maps selected" href="/templates/Mirage/mirage.html">
 
                     <img class="map_icons" draggable="false" src="/static/images/map_icons/Mirage_white.png" alt="Mirage">
 
@@ -211,7 +211,7 @@
                 </a>
 
 
-                <a class="maps selected" href="/templates/Dust2/dust2.html">
+                <a class="maps" href="/templates/Dust2/dust2.html">
 
                     <img class="map_icons" draggable="false" src="/static/images/map_icons/Dust2_white.png" alt="Dust 2">
 
@@ -303,9 +303,6 @@
 
     <main>
 
-
-        
-
         <!-- Team icons -->
         <img id="small_T_icon" src="/static/images/team_icons/T_Icon2.png" alt="small_T_icon">
 
@@ -322,14 +319,14 @@
 
 
         <!-- Terrorist smokes -->
-        <button style="left: 67.3%; top: 43%;" class="terrorist_smoke" id="t_smoke_1" type="button" onclick="alert('Hello World!')">
+        <button style="left: 67.3%; top: 43%;" class="terrorist_smoke gone" id="t_smoke_1" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="smoke_1">
 
         </button>
 
 
-        <button style="left: 62.85%; top: 40%;" class="terrorist_smoke" id="t_smoke_2" type="button" onclick="alert('Hello World!')">
+        <button style="left: 62.85%; top: 40%;" class="terrorist_smoke gone" id="t_smoke_2" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="t_smoke_1">
 
@@ -338,14 +335,14 @@
 
 
         <!-- Counter Terrorist smokes -->
-        <button style="left: 66.4%; top: 66%;" class="counter_terrorist_smoke" id="ct_smoke_1" type="button" onclick="alert('Hello World!')">
+        <button style="left: 66.4%; top: 66%;" class="counter_terrorist_smoke gone" id="ct_smoke_1" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="ct_smoke_1">
 
         </button>
 
         
-        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_smoke" id="ct_smoke_2" type="button" onclick="alert('Hello World!')">
+        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_smoke gone" id="ct_smoke_2" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="ct_smoke_1">
 
@@ -391,7 +388,7 @@
 
 
         <!-- Terrorist HE -->
-        <button style="left: 67.3%; top: 43%;" class="terrorist_he gone" id="t_he_1" type="button" onclick="alert('Hello World!')">
+        <button style="left: 67.3%; top: 43%;" class="terrorist_he" id="t_he_1" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_smoke.svg" alt="he_1">
 
@@ -399,7 +396,7 @@
 
 
         <!-- Counter Terrorist HE -->
-        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_he gone" id="ct_he_1" type="button" onclick="alert('Hello World!')">
+        <button style="left: 48.5%; top: 62.5%;" class="counter_terrorist_he" id="ct_he_1" type="button" onclick="alert('Hello World!')">
 
             <img class="small_nade_icon" src="/static/images/small_nade_icons/small_ct_smoke.svg" alt="he_1">
 
@@ -408,8 +405,7 @@
 
 
 
-        <img id="layout" draggable="false" src="/static/images/map_layouts/Dust2_layout.png" alt="Ancient_layout">
-
+        <img id="layout" draggable="false" src="/static/images/map_layouts/Mirage_layout.png" alt="Mirage_layout">
 
 
     </main>
