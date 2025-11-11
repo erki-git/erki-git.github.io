@@ -254,3 +254,8 @@ button:hover {
 .gone {
     display: none;
 }
+
+.position_icon {
+    opacity: 80%;
+    height: 3vh;
+}
