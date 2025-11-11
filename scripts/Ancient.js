@@ -4,7 +4,15 @@ let t_nade_smoke = document.querySelectorAll(".terrorist_smoke")
 
 let position_list = {
 
-    t_smoke_1: ["t_smoke_1_pos_1","t_smoke_1_pos_2"]
+
+    // T Smokes
+    t_smoke_1: ["t_smoke_1_pos_1"],
+    t_smoke_2: ["t_smoke_2_pos_1"],  
+    t_smoke_3: ["t_smoke_3_pos_1"],   
+    t_smoke_4: ["t_smoke_4_pos_1"],  
+
+
+    
 
 }
 
