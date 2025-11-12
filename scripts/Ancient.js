@@ -10,8 +10,8 @@ let position_list = {
     t_smoke_2: ["t_smoke_2_pos_1"],  
     t_smoke_3: ["t_smoke_3_pos_1"],   
     t_smoke_4: ["t_smoke_4_pos_1"],  
-
-
+    t_smoke_5: ["t_smoke_5_pos_1"],
+    t_smoke_6: ["t_smoke_6_pos_1","t_smoke_6_pos_2","t_smoke_6_pos_3","t_smoke_6_pos_4","t_smoke_6_pos_5"]
     
 
 }
