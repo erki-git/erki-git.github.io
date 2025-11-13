@@ -1,3 +1,4 @@
+
 let position_buttons = document.querySelectorAll(".position_buttons")
 let ct_nade_smoke = document.querySelectorAll(".counter_terrorist_smoke")
 let t_nade_smoke = document.querySelectorAll(".terrorist_smoke")
@@ -11,8 +12,8 @@ let position_list = {
     t_smoke_3: ["t_smoke_3_pos_1"],   
     t_smoke_4: ["t_smoke_4_pos_1"],  
     t_smoke_5: ["t_smoke_5_pos_1"],
-    t_smoke_6: ["t_smoke_6_pos_1","t_smoke_6_pos_2","t_smoke_6_pos_3","t_smoke_6_pos_4","t_smoke_6_pos_5"]
-    
+    t_smoke_6: ["t_smoke_6_pos_1","t_smoke_6_pos_2","t_smoke_6_pos_3","t_smoke_6_pos_4","t_smoke_6_pos_5"],
+    t_smoke_7: ["t_smoke_7_pos_1"],
 
 }
 
@@ -49,6 +50,7 @@ function clicked(nade_id) {
     } else {
 
         closed = true;
+        
 
         position_buttons.forEach((element) => {
             console.log(element)
@@ -56,13 +58,31 @@ function clicked(nade_id) {
         });
 
 
-        t_nades_smoke.forEach((element) => {
-            element.style.display = "block"
-        });
 
-        ct_nades_smoke.forEach((element) => {
-            element.style.display = "block"
-        });
+        if (selectedTeam == "t"){
+
+            t_nades_smoke.forEach((element) => {
+                element.style.display = "block"
+            });
+
+        } else if (selectedTeam == "ct"){
+
+            ct_nades_smoke.forEach((element) => {
+                element.style.display = "block"
+            });
+            
+        } else {
+
+            ct_nades_smoke.forEach((element) => {
+                element.style.display = "block"
+            });
+
+            t_nades_smoke.forEach((element) => {
+                element.style.display = "block"
+            });
+
+
+        }
 
 
     }

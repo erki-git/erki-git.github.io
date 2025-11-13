@@ -256,8 +256,9 @@ button:hover {
 }
 
 .position_icon {
-    height: 3vh;
+    height: 2.5vh;
 }
+
 
 .visible {
     display: block;
