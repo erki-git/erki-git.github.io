@@ -249,7 +249,9 @@ button:hover {
     display: none;
 }
 
-
+.counter_terrorist_position {
+    display: none;
+}
 
 .gone {
     display: none;
@@ -258,6 +260,7 @@ button:hover {
 .position_icon {
     height: 2.5vh;
 }
+
 
 
 .visible {

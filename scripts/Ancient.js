@@ -14,7 +14,17 @@ let position_list = {
     t_smoke_5: ["t_smoke_5_pos_1"],
     t_smoke_6: ["t_smoke_6_pos_1","t_smoke_6_pos_2","t_smoke_6_pos_3","t_smoke_6_pos_4","t_smoke_6_pos_5"],
     t_smoke_7: ["t_smoke_7_pos_1"],
+    t_smoke_8: ["t_smoke_8_pos_1"],
+    t_smoke_9: ["t_smoke_9_pos_1"],
+    t_smoke_10: ["t_smoke_10_pos_1"],
 
+
+
+    // CT Smokes
+
+    ct_smoke_1: ["ct_smoke_1_pos_1","ct_smoke_1_pos_2","ct_smoke_1_pos_3","ct_smoke_1_pos_4","ct_smoke_1_pos_5","ct_smoke_1_pos_6"],
+    ct_smoke_2: ["ct_smoke_2_pos_1"],
+    ct_smoke_3: ["ct_smoke_3_pos_1","ct_smoke_3_pos_2","ct_smoke_3_pos_3","ct_smoke_3_pos_4","ct_smoke_3_pos_5","ct_smoke_3_pos_6"]
 }
 
 let closed = true;
