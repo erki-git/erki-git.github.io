@@ -261,9 +261,12 @@ button:hover {
     height: 2.5vh;
 }
 
+.position_icon:hover {
+    filter: grayscale(20%);
+}
+
 
 
 .visible {
     display: block;
 }
-
